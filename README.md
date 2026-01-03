@@ -1,22 +1,20 @@
-# -SFH-DFH-AI-Grounding-Layer-Not-a-Truth-Engine-
+# -HESS-DFH-AI-Grounding-Layer-Not-a-Truth-Engine-
 **SFH (Semantic First-Hop) / DFH (Deterministic First-Hop)** is **not** a machine that creates truth.   It is a **deterministic grounding primitive**: a standardized “first place to look” for meaning + provenance so AI systems stop guessing the *starting point*.
 
-**SFH (Semantic First-Hop) / DFH (Deterministic First-Hop)** is **not** a machine that creates truth.  
+**HESS / DFH (Deterministic First-Hop)** is **not** a machine that creates truth.  
 It is a **deterministic grounding primitive**: a standardized “first place to look” for meaning + provenance so AI systems stop guessing the *starting point*.
 
 > **DNS tells machines where to go.**  
-> **SFH/DFH tells machines what a domain claims things *mean* — and where the canonical sources are.**
+> **HESS/DFH tells machines what a domain claims things *mean* — and where the canonical sources are.**
 
 ---
 
-## ✅ What SFH/DFH IS
+## ✅ What HESS/DFH IS
 
 SFH/DFH is a **domain-rooted semantic + provenance anchor** published at:
 
-https://<domain>/.well-known/stack
+https://< yourdomain>/.well-known/stack
 
-yaml
-Copy code
 
 It acts like a **deterministic first-hop** for:
 
@@ -28,10 +26,10 @@ It acts like a **deterministic first-hop** for:
 
 ---
 
-## ❌ What SFH/DFH is NOT
+## ❌ What HESS/DFH is NOT
 
 ### 1) Not a “Truth Engine”
-SFH/DFH does **not** prove a claim is true.  
+HESS/DFH does **not** prove a claim is true.  
 It does not magically validate reality. It does not replace journalism, courts, science, audits, or evidence.
 
 It only provides:
@@ -44,19 +42,19 @@ Truth still requires verification.
 
 ### 2) Not a Knowledge Graph
 Knowledge graphs can aggregate many sources and infer relationships.  
-SFH/DFH is smaller and simpler:
+HESS/DFH is smaller and simpler:
 
 - one deterministic file
 - one deterministic start point
 - zero inference
 
 ### 3) Not RLHF / Safety / Moderation
-SFH/DFH does not decide what is safe to output.  
+HESS/DFH does not decide what is safe to output.  
 Safety layers still override deterministic content.
 
 ---
 
-## 🎯 The Real Problem SFH/DFH Solves
+## 🎯 The Real Problem HESS/DFH Solves
 
 The web worked for 25+ years because:
 
@@ -91,10 +89,7 @@ DNS
 → Safety / Policy (Block unsafe outputs)
 → Model Output
 
-yaml
-Copy code
-
-SFH/DFH does not replace the pipeline — it **stabilizes the first hop**.
+HESS/DFH does not replace the pipeline — it **stabilizes the first hop**.
 
 ---
 
@@ -127,7 +122,7 @@ These define **trust metadata**:
 
 ## 🔒 Why this is “Grounding” (Not “Truth”)
 
-SFH/DFH is like a **map legend**:
+HESS/DFH is like a **map legend**:
 - It does not prove the land is real.
 - It tells you what symbols mean and where official boundaries are claimed to be.
 
@@ -183,7 +178,7 @@ As AI answers replace “10 blue links,” brands will demand:
 - “Cite the official URLs”
 - “Don’t hallucinate policy/pricing/specs”
 
-SFH/DFH provides the simplest deterministic way to do that.
+HESS/DFH provides the simplest deterministic way to do that.
 
 ---
 
@@ -259,8 +254,6 @@ So even if a stack says “output X”, a safe system can still:
   }
 }
 🚀 Repo Layout (Suggested)
-bash
-Copy code
 /README.md
 /spec/
   sfh-dfh-human-readable.md
@@ -274,8 +267,9 @@ Copy code
 /.github/
   ISSUE_TEMPLATE.md
   FUNDING.yml
+
 🧭 Positioning (Important)
-This repo does not claim SFH/DFH is “the truth.”
+This repo does not claim HESS/DFH is “the truth.”
 It claims SFH/DFH is the missing AI grounding index primitive that provides:
 
 a deterministic first hop for meaning
@@ -289,6 +283,6 @@ That’s it.
 And that “boring” simplicity is exactly why it scales.
 
 📣 One-Sentence Summary
-SFH/DFH is not a truth engine — it’s the deterministic first-hop grounding file that tells AI where meaning begins and where canonical sources live, so answers stop being guesswork.
+HESS/DFH is not a truth engine — it’s the deterministic first-hop grounding file that tells AI where meaning begins and where canonical sources live, so answers stop being guesswork.
 
 Copy code
