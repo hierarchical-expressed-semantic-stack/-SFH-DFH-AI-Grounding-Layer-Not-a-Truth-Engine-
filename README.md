@@ -1,5 +1,5 @@
 # -HESS-DFH-AI-Grounding-Layer-Not-a-Truth-Engine-
-**SFH (Semantic First-Hop) / DFH (Deterministic First-Hop)** is **not** a machine that creates truth.   It is a **deterministic grounding primitive**: a standardized “first place to look” for meaning + provenance so AI systems stop guessing the *starting point*.
+**HESS / DFH (Deterministic First-Hop)** is **not** a machine that creates truth.   It is a **deterministic grounding primitive**: a standardized “first place to look” for meaning + provenance so AI systems stop guessing the *starting point*.
 
 **HESS / DFH (Deterministic First-Hop)** is **not** a machine that creates truth.  
 It is a **deterministic grounding primitive**: a standardized “first place to look” for meaning + provenance so AI systems stop guessing the *starting point*.
@@ -11,7 +11,7 @@ It is a **deterministic grounding primitive**: a standardized “first place to 
 
 ## ✅ What HESS/DFH IS
 
-SFH/DFH is a **domain-rooted semantic + provenance anchor** published at:
+HESS/DFH is a **domain-rooted semantic + provenance anchor** published at:
 
 https://< yourdomain>/.well-known/stack
 
@@ -72,7 +72,7 @@ Without a deterministic first-hop, AI often:
 - hallucinates missing details to “complete” an answer
 - cannot reliably anchor “what the domain *means* by this term”
 
-SFH/DFH fixes the missing starting point:
+HESS/DFH fixes the missing starting point for search engones and AI:
 
 - **one place to begin**
 - **one deterministic structure**
